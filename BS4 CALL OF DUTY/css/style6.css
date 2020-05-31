@@ -1,0 +1,602 @@
+@font-face {
+  font-family: 'tieude';
+  src: url('../fonts/SVN-Big Noodle Titling.otf');
+}
+@font-face {
+  font-family: 'noidung';
+  src: url('../fonts/SVN-Agency FB.ttf');
+}
+p{
+  font-size: 15px;
+}
+@media screen and (max-width: 768px){
+  p{
+    font-size: 15px!important;
+  }
+}
+@media screen and (max-width: 450px){
+  p{
+    font-size: 20px!important;
+  }
+}
+
+/* ĐÂY LÀ PHÀN MENUBA */
+.inhoa{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: SVN-Big Noodle Titling;
+}
+#menubar .bg-dark {
+  background-color: rgba(0, 0, 0, 0.0)!important;
+}
+@media screen and (max-width: 450px){
+  .bg-dark {
+    background-color: rgba(0, 0, 0, 1.5)!important;
+  }
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-right: 30px;
+}
+.navbar-toggler{
+  border: none;
+}
+.dropdown-menu{
+  padding: 10px;
+}
+/* ĐÂY LÀ PHẦN MENUBAR */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#slider .bg {
+  /* The image used */
+  background-image: url("../img/banner.png");
+
+  /* Full height */
+  height: 140%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 576px){
+  #slider .bg{
+    margin-top: -100px!important;
+  }
+}
+#slider .content{
+  margin-top: 300px;
+}
+
+
+@media screen and (max-width: 450px) {
+  #slider .btn-slider {
+    margin-top: -115px!important;
+  }
+}
+/* ĐÂY LÀ PHẦN BLACKOUT */
+#blackout .content{
+  margin-top: 265px;
+}
+@media screen and (max-width: 768px){
+  #blackout .content{
+    margin-top: 106px!important;
+  }
+}
+
+
+#blackout .row{
+  margin-top: 110px;
+}
+@media screen and (max-width: 450px) {
+  .mgt-bla {
+    margin-top: -75px;
+  }
+}
+
+#blackout .tranform-bla1 img:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+#blackout .tranform-bla2 img:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+/* ĐÂY LÀ PHẦN ZOOMBIE */
+#zoombie .tranform-zb img:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+#zoombie .row .content{
+  margin-top: 144px;
+}
+@media screen and (max-width: 768px){
+  #zoombie .row .content-1{
+    margin-top: -44px!important;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  #zoombie .content{
+    margin-top: 23px!important;
+  }
+}
+#zoombie .row{
+  margin-top: 100px;
+}
+/* DAY LA PHAN MULTIPLA */
+@media screen and (max-width: 768px){
+  #multippla h1{
+    font-size: 50px!important;
+  }
+}
+#multippla .img-fuid{
+  display: inline-block;
+  width: 100%;
+}
+#multippla .tranform-mtpl img:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+#multippla h1{
+  font-size: 55px;
+    font-family: "SVN-Agency FB";
+    color: rgb(255, 107, 0);
+    text-transform: uppercase;
+}
+#multippla p{
+  color: white;
+  font-family: "SVN-Agency FB";
+  font-size: 20px;
+}.top{
+  margin-top: 103px;
+}
+@media screen and (max-width: 700px) {
+  .caption {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+/* DAY LA PHAN VIDEO */
+header .form-control{
+  display: inline;
+}
+header .form{
+  display: inline-block;
+  flex-flow: row wrap;
+    align-items: center;
+}
+header .form-control{
+  width: 280px!important;
+  border-radius: 0px;
+  background-clip: none;
+}
+header .form{
+  flex-flow: row wrap;
+    align-items: center;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 70px;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+@media screen and (max-width: 450px){
+  .carousel-caption h1{
+    margin-top: 30px!important;
+  }
+}
+header .W-100{
+  margin-bottom: 20px;
+}
+/* DAY LA PHAN footter */
+@media screen and (max-width: 450px){
+  #footter .row1{
+    margin-left: 17px;
+  }
+}
+#footter .col-sm-4{
+  text-align: center;
+}
+#footter .row1 a i{
+	font-size: 20px;
+	text-decoration: none;
+	color: gray;
+	letter-spacing: 15px;
+	margin-top: 3px;
+}
+#footter .col-sm-4{
+  margin-top: 20px;
+}
+#footter{
+  background-image: url(../img/BG4.png);
+  width: 100%;
+  height: auto;
+}
+#footter .logo img{
+  margin-top: 30px;
+}
+/* ĐÂY LÀ PHẦN TRANG CON BLACKOUT */
+/* DAY LÀ PHẦN SLIDEr */
+#slider-bla .bg{
+  /* The image used */
+  background-image: url("../img/banner-blackout.png");
+
+  /* Full height */
+  height: 140%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* DAY LA PHAN BAN DO */
+
+#map .row{
+  margin-top: 50px;
+}
+#map .tieude{
+  margin-top: 300px;
+}
+@media screen and (max-width: 450px){
+  #map .tieude{
+    margin-top: 300px;
+  }
+}
+
+/* DAY LA PHAN NHAN VAT */
+#demo .click{
+  position: absolute;
+    right: 0;
+    bottom: -80px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    letter-spacing: 10px;
+    
+}
+#demo .click .active img{
+  border: 4px solid #2760db;
+  border-radius: 50px;
+}
+#nhan-vat .carousel-indicators a img{
+  margin-top: 200px!important;
+}
+#nhan-vat .tieude{
+  margin-top: 100px;
+}
+#demo{
+  margin-top: 50px;
+}
+#nhan-vat .caption{
+  margin-top: 170px;
+}
+@media screen and (max-width: 450px){
+  #nhan-vat .caption{
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 450px){
+  #nhan-vat .carousel-inner{
+    margin-top: 50px;
+  }
+}
+/* DAY LA PHAN VU KHI */
+#vukhi .tieude{
+  margin-top: 100px;
+}
+/* ----------------ĐÂY LÀ PHẦN TRANG CON ZOOMBIE */
+#slider-bla .bg-zb{
+  /* The image used */
+  background-image: url("../img/gb-zb.png");
+
+  /* Full height */
+  height: 140%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+/* ĐAY LÀ TRANG MUA HÀNG */
+/* đay là phàn navbar */
+#menubar-mh .bg-dark{
+  background-color: rgba(0, 0, 0, 1.5)!important;
+}
+#nen .top{
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 450px){
+  #nen{
+    height: 305%;
+  }
+}
+@media screen and (max-width: 350px){
+  #nen{
+    height: 434%;
+  }
+}
+#nen .form-control{
+  background-color: transparent;
+  border: 2px solid #f0801c;
+  border-radius: 0px;
+  width: 89%;
+}
+
+#nen .top-form{
+  margin-top: 90px;
+}
+@media screen and (max-width: 450px){
+  #nen .top-form{
+    margin-top: 0px;
+  }
+}
+#nen label{
+  color: white;
+}
+#nen button{
+  width: 89%;
+  height: 40px;
+  background-color: rgb(255, 107, 0, 0.5);
+  border: 2px solid #f0801c;
+  color: white;
+  box-shadow: 0 0 1px #f0801c, 
+  0 0 2px #f0801c, 
+  0 0 0px #f0801c, 
+  0 0 6px #f0801c, 
+  inset 0 0 1px #f0801c, 
+  inset 0 0 2px #f0801c, 
+  inset 0 0 0px #f0801c, 
+  inset 0 0 6px #f0801c;
+}
+button{
+  box-shadow: 0 0 1px #f0801c, 
+  0 0 2px #f0801c, 
+  0 0 0px #f0801c, 
+  0 0 6px #f0801c, 
+  inset 0 0 1px #f0801c, 
+  inset 0 0 2px #f0801c, 
+  inset 0 0 0px #f0801c, 
+  inset 0 0 6px #f0801c;
+}
+/* ĐÂY LÀ TRANG TIN  TỨC */
+
+#banner-ttt .carousel-item img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 450px){
+  #banner-ttt .carousel-item img{
+    margin-left: -300px;
+  }
+}
+#banner-ttt .carousel-caption{
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.719);
+  width: 775px;
+  height: 195px;
+  padding: 20px;
+  bottom: 155px;
+    left: 50%;
+}
+#demo{
+  margin-top: 0px;
+}
+#thong-tin{
+  background-image: url('../img/bg-ttt.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#thong-tin .item .jumbotron{
+  padding: 1rem 2rem;
+  height: 142px;
+  border-radius: 0px;
+  margin-left: -30px;
+  margin-top: 1px;
+    background-color: white;
+}
+@media screen and (max-width: 450px){
+  #thong-tin .item .jumbotron{
+    margin-left: 0px;
+    width: 97%;
+  }
+}
+#thong-tin .content .jumbotron {
+  padding: 1rem 1rem;
+  width: 350px;
+  border-radius: 0px;
+  height: 100px;
+  margin-top: 0px;
+}
+.twitter a i{
+  font-size: 35px;
+  margin-left: 35px;
+  line-height: 67px;
+}
+#thong-tin .text{
+  margin-left: 20px;
+  
+}
+#thong-tin .item .jumbotron:hover{
+  background-color: rgb(255, 104, 4);
+  color: white;
+  transition: ease 0.5s!important;
+}
+.pagi-nation .page-link {
+  color: #f8f8f8;
+  background-color: #161515;
+  border: none;
+  margin-right: 5px;
+  display: run-in;
+}
+.pagi-nation .page-link  i{
+  font-size: 20px;
+  color: #ff8900;
+}
+#thong-tin .form-control {
+  display: block;
+  width: 200px;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #ff7700a2;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0px;
+  margin-top: 110px;
+}
+@media screen and (max-width: 450px){
+  #thong-tin .form-control {
+    
+    margin-top: 20px;
+  }
+}
+#thong-tin .con-tent{
+  margin-top: 32px;
+}
+#thong-tin .vd-t{
+  margin-top: 180px;
+}
+#thong-tin .clearfix{
+  margin-top: 100px;
+}
+/* ĐÂY LÀ PHẦN CHI TIẾT TRANG TIN TỨC */
+#spotlight{
+  background-image: url('../img/bg-ttt.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tin-tuc .carousel-item img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+#banner-trang-chi-tiet-tt .carousel-caption{
+  text-align: left;
+  right: 0%;
+}
+.clearfix-2{
+  margin-top: 100px;
+}
+#banner-trang-chi-tiet-tt .carousel-caption{
+  margin-left: 4px;
+}
+#spotlight .noidung{
+  margin-top: 30px;
+}
+#thong-tin .jumbotron {
+  
+  border-radius: 0px;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 70px;
+  
+}
+#thong-tin p{
+  font-family: SVN-Agency FB;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+#spotlight h1{
+  font-size: 55px;
+}
+/* ĐÂY LÀ TRANG CỘNG ĐỒNG */
+#cong-dong{
+  background-image: url('../img/bg-trang-cd.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m-0 {
+  margin: 5px!important;
+}
+#cong-dong hr{
+  border: 2px solid #f0801c;
+  width: 100%;
+  display: inline-block;
+}
+#cong-dong .header .jumbotron{
+  padding: 0rem 1rem;
+  background-color: #f0801c;
+  border-radius: 0%;
+  padding: 6px;
+}
+#cong-dong .content{
+  margin-top: -32px;
+}
+#cong-dong .jumbotron{
+  padding: 1rem 3rem;
+  border-radius: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#cong-dong .pagi-nation{
+  margin-top: 30px;
+}
+/* đây là phần chi tiết trang cộng đồng */
+#bai-viet .bg-white{
+  background-color: rgba(0, 0, 0, 0.438)!important;
+}
+.bg-ct{
+  background-image: url('../img/bg-trang-cd.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0);
+}
